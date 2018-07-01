@@ -189,4 +189,5 @@ If you are using numbered citations, the number for each entry will be automatic
 -   Copy-pasting the example style file directly from this page can give an unparseable file. To avoid this, instead download the example file from the link in the download section.
 - Make sure that `libreoffice-java-common` is installed on Linux for LibreOffice 5, otherwise important libraries are missing.
 - Open Office 4 will only work running under a 32-bit Java JRE/JDK on Windows because there is no 64-bit version of OpenOffice yet.
-
+-  JabRef can connect to the Snap version of LibreOffice Writer, but only if the writer is executed via command line:
+`/snap/libreoffice/65/lib/libreoffice/program/soffice --writer --nologo &` as per [this](http://discourse.jabref.org/t/connecting-with-libreoffice-snap-under-ubuntu-16-04/980/3) discussion.
